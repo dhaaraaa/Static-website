@@ -12,7 +12,7 @@ const Nav = () => {
     const items = ['Home', 'Services', 'Products', 'Aboutus']
     return (
         <>
-        <div className='flex justify-between items-center w-full px-10 py-5 bg-white top-0 sticky shadow-md z-50'>
+        <div className='flex justify-between items-center w-full px-5 py-5 bg-white top-0 sticky shadow-md z-50 md:px-10'>
             <h1 className='text-2xl font-bold text-blue-700'>WEBVOX</h1>
             <div className='hidden md:flex  gap-10 '>
                 <ul className='flex items-center gap-5  '>
